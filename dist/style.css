@@ -1,0 +1,173 @@
+header {
+  width: 100%;
+  background-color: #181c14;
+  color: white;
+  height: 100vh;
+}
+header nav {
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav ul li {
+  text-decoration: none;
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+header .title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+header .title .name {
+  width: 50%;
+}
+header .title .name div {
+  width: fit-content;
+  margin: 0 auto;
+}
+header .title .name div h1 {
+  font-size: 4rem;
+}
+header .title .name div p {
+  font-size: 1.5rem;
+}
+header .title .name div .contact {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 80px 0;
+}
+header .title .name div .contact i {
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+header .title .name a {
+  width: fit-content;
+  text-decoration: none;
+  color: black;
+  padding: 10px 25px;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: 400;
+}
+header .title .name a i {
+  margin-left: 20px;
+}
+header .illustration {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+header .illustration div {
+  margin: 0 auto;
+}
+header .illustration div .circle-container {
+  position: relative;
+  width: 800px;
+  height: 875px;
+  margin: 0 auto;
+  animation: rotate 20s linear infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-reverse {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+header .illustration div .circle-container .circle-item {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: 19px 11px 67px -18px rgb(240, 71, 255);
+  -moz-box-shadow: 19px 11px 67px -18px rgb(240, 71, 255);
+  box-shadow: 19px 11px 67px -18px rgb(240, 71, 255);
+  background: transparent;
+}
+header .illustration div .circle-container .circle-item img {
+  width: 100%;
+  height: 100%;
+  animation: rotate-reverse 20s linear infinite;
+}
+header .illustration div .circle-container .item1 {
+  transform-origin: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(0deg) translateY(-250px) rotate(0deg);
+}
+header .illustration div .circle-container .item2 {
+  transform-origin: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(51.4285714286deg) translateY(-250px) rotate(-51.4285714286deg);
+}
+header .illustration div .circle-container .item3 {
+  transform-origin: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(102.8571428571deg) translateY(-250px) rotate(-102.8571428571deg);
+}
+header .illustration div .circle-container .item4 {
+  transform-origin: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(154.2857142857deg) translateY(-250px) rotate(-154.2857142857deg);
+}
+header .illustration div .circle-container .item5 {
+  transform-origin: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(205.7142857143deg) translateY(-250px) rotate(-205.7142857143deg);
+}
+header .illustration div .circle-container .item6 {
+  transform-origin: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(257.1428571429deg) translateY(-250px) rotate(-257.1428571429deg);
+}
+header .illustration div .circle-container .item7 {
+  transform-origin: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(308.5714285714deg) translateY(-250px) rotate(-308.5714285714deg);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: normal;
+}
+
+/*# sourceMappingURL=style.css.map */
